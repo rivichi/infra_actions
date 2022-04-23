@@ -26,6 +26,8 @@ SECRET_KEY = 'k9gwcfq01xszx2(_4e#gc3u$rt=)y6ivx=$wt+5&-^ktk4dg4e'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+LLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver', '[::1]', '51.250.31.245', ]
+INTERNAL_IPS = ['127.0.0.1', ]
 
 
 # Application definition
